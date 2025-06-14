@@ -1,17 +1,21 @@
-# 🚗 Car Price Prediction (Linear Regression)
-This mini ML project uses a synthetic dataset to predict car prices based on mileage using `scikit-learn`. It includes:
+# 🚗 DriveNest – Car Price Predictor
 
-- Data simulation
-- Visualization with `matplotlib` and `seaborn`
-- Model training + evaluation
-- Dynamic predictions
+An ML project that predicts used car prices using multiple features:
 
-### 🔧 Tools Used
-- Python
-- Jupyter Lab
-- Pandas, Numpy
-- Scikit-learn
-- Matplotlib & Seaborn
+- Mileage
+- Year
+- Brand
+- Engine Size
+- Fuel Type
 
----
-👨‍💻 Built by Big Jay, part of my machine learning journey 🚀
+Built with `scikit-learn`, `Gradio`, and a simulated dataset.
+
+## 🧪 Features
+- Trained using Linear Regression
+- Categorical features handled via OneHotEncoding
+- Clean UI with Gradio
+- Includes notebook for data prep & training
+
+## 🔧 How to Run
+1. Clone repo
+2. Install dependencies:
